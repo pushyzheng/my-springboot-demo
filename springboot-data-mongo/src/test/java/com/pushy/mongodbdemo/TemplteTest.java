@@ -82,8 +82,14 @@ public class TemplteTest {
         Query query1 = new BasicQuery(document, fields);
         Order order1 = mongoTemplate.findOne(query1, Order.class);
         order1.getComments().forEach(a -> System.out.println(a.getContent()));
+    }
 
 
+    @Test
+    public void queryAllFreshItemList() {
+        Query query = new Query(Criteria.where("_id").is("f87d5598-5332-4356-9721-930c728794a5"));
+        Order orders = mongoTemplate.findOne(query,Order.class);
+        System.out.println(orders.getItems().getFreshItemList());
     }
 
 
@@ -111,7 +117,7 @@ public class TemplteTest {
     @Test
     public void insertFreshItemPriceTest() {
         Query query = Query.query(Criteria.where("_id")
-                .is("f87d5598-5332-4356-9721-930c728794a5"));
+                .is("8ac7b90a-4067-41f3-9ab8-91d8e13d9df6"));
 
         ItemField item = new ItemField();
         item.setId(UUID.randomUUID().toString());
@@ -124,5 +130,16 @@ public class TemplteTest {
         mongoTemplate.upsert(query, update, Order.class);
 
     }
+
+    @Test
+    public void deleteFreshItemTest() {
+        Query query = Query.query(Criteria.where("_id")
+                .is("6da06bce-1751-4634-a2db-1463a1252513")
+                .and("items.freshItemList._id").is("5e2d3370-9166-45dc-b08b-4c4d62271861"));
+        Update update = new Update();
+        update.unset("items.$.freshItemList");
+        mongoTemplate.updateFirst(query, update, Order.class);
+    }
+
 
 }

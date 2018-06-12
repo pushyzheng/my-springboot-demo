@@ -251,7 +251,7 @@ mongoTemplate.remove(query,Order.class);
 ```
 
 
-### 4.2 复杂对象的操作
+### 4.2 内嵌文档的操作
 
 我们将上面的文档对象修改如下的复杂的形式：
 
@@ -386,4 +386,20 @@ Update update = new Update();
 // 更新价格
 update.set("items.freshItemList.$.price", 400);
 mongoTemplate.upsert(query, update, Order.class);
+```
+
+#### 删除freshItemList的某个对象
+
+删除内嵌文档的对象时不能通过`remove()`方法，该方法会将该条记录全部删除。而是通过`unset()`更新要删除的键为空，则达到删除找个对象的效果：
+
+```java
+String orderId = "6da06bce-1751-4634-a2db-1463a1252513";
+// 需要删除的freshItemList数组中对象的ID
+String itemId = "5e2d3370-9166-45dc-b08b-4c4d62271861";
+
+Query query = Query.query(Criteria.where("_id").is(orderId)
+        .and("items.freshItemList._id").is(itemId));
+Update update = new Update();
+update.unset("items.$.freshItemList");
+mongoTemplate.updateFirst(query, update, Order.class);
 ```
