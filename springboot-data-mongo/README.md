@@ -400,6 +400,6 @@ String itemId = "5e2d3370-9166-45dc-b08b-4c4d62271861";
 Query query = Query.query(Criteria.where("_id").is(orderId)
         .and("items.freshItemList._id").is(itemId));
 Update update = new Update();
-update.unset("items.$.freshItemList");
+update.pull("items.$.freshItemList", new BasicDBObject("_id", itemId));
 mongoTemplate.updateFirst(query, update, Order.class);
 ```

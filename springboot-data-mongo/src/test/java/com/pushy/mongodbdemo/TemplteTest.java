@@ -1,6 +1,7 @@
 package com.pushy.mongodbdemo;
 
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.WriteResult;
 import com.pushy.mongodbdemo.pojo.Comment;
 import com.pushy.mongodbdemo.pojo.ItemField;
@@ -117,7 +118,7 @@ public class TemplteTest {
     @Test
     public void insertFreshItemPriceTest() {
         Query query = Query.query(Criteria.where("_id")
-                .is("8ac7b90a-4067-41f3-9ab8-91d8e13d9df6"));
+                .is("6da06bce-1751-4634-a2db-1463a1252513"));
 
         ItemField item = new ItemField();
         item.setId(UUID.randomUUID().toString());
@@ -133,11 +134,13 @@ public class TemplteTest {
 
     @Test
     public void deleteFreshItemTest() {
+        String itemId = "8def92c8-7bbb-4234-bb3f-6b768e91047c";
+
         Query query = Query.query(Criteria.where("_id")
                 .is("6da06bce-1751-4634-a2db-1463a1252513")
-                .and("items.freshItemList._id").is("5e2d3370-9166-45dc-b08b-4c4d62271861"));
+                .and("items.freshItemList._id").is(itemId));
         Update update = new Update();
-        update.unset("items.$.freshItemList");
+        update.pull("items.$.freshItemList", new BasicDBObject("_id", itemId));
         mongoTemplate.updateFirst(query, update, Order.class);
     }
 
