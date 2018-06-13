@@ -390,7 +390,7 @@ mongoTemplate.upsert(query, update, Order.class);
 
 #### 删除freshItemList的某个对象
 
-删除内嵌文档的对象时不能通过`remove()`方法，该方法会将该条记录全部删除。而是通过`unset()`更新要删除的键为空，则达到删除找个对象的效果：
+删除内嵌文档的对象时不能通过`remove()`方法，该方法会将该条记录全部删除。而是通过`pull()`方法来删除对象：
 
 ```java
 String orderId = "6da06bce-1751-4634-a2db-1463a1252513";
