@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee8516ed-0812-44fb-a0de-20a52ea6228b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CityController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/web/CityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>velocity</find>
+      <find>dubbo</find>
+      <find>spring</find>
+      <find>org.springframework</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../Others Demo/sagan" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/spring/springboot/dubbo/CityDubboConsumerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/spring/springboot/web/CityController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../../../../Others Demo/dubbox-master/dubbo-admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenLocalRepository" />
+        <option name="mavenHome" value="C:/Programming Environment/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2116" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.spring.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.spring.springboot.ClientApplication" />
+      <module name="springboot-dubbo-client" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee8516ed-0812-44fb-a0de-20a52ea6228b" name="Default" comment="" />
+      <created>1529237488164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529237488164</updated>
+      <workItem from="1529237490691" duration="3391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3391000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1911" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30716723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/dubbo/CityDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/domain/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=org.spring.springboot.ClientApplication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=org.spring.springboot.ClientApplication</OriginalElement>
+          <nodes>
+            <node x="562.0" y="1901.0">module=springboot-dubbo-client;bean_class=org.spring.springboot.ClientApplication;bean_name=clientApplication</node>
+            <node x="790.0" y="1868.0">module=springboot-dubbo-client;bean_class=org.spring.springboot.dubbo.CityDubboConsumerService;bean_name=cityDubboConsumerService</node>
+            <node x="837.5" y="1934.0">module=springboot-dubbo-client;bean_class=org.spring.springboot.web.CityController;bean_name=cityController</node>
+            <node x="530.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;bean_name=messageSourceAutoConfiguration</node>
+            <node x="874.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.context.MessageSource;bean_name=messageSource</node>
+            <node x="1563.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector;bean_name=enableConfigurationPropertiesImportSelector</node>
+            <node x="1726.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;bean_name=propertyPlaceholderAutoConfiguration</node>
+            <node x="2103.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.context.support.PropertySourcesPlaceholderConfigurer;bean_name=propertySourcesPlaceholderConfigurer</node>
+            <node x="0.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;bean_name=jacksonAutoConfiguration</node>
+            <node x="291.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.jackson.JsonComponentModule;bean_name=jsonComponentModule</node>
+            <node x="1387.0" y="2005.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration;bean_name=jackson2ObjectMapperBuilderCustomizerConfiguration</node>
+            <node x="1873.0" y="2005.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration.StandardJackson2ObjectMapperBuilderCustomizer;bean_name=standardJacksonObjectMapperBuilderCustomizer</node>
+            <node x="649.0" y="2289.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonProperties;bean_name=spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties</node>
+            <node x="1388.0" y="2147.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration;bean_name=jacksonObjectMapperBuilderConfiguration</node>
+            <node x="1791.0" y="2147.0">module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;bean_name=jacksonObjectMapperBuilder</node>
+            <node x="1789.0" y="2360.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration;bean_name=jacksonObjectMapperConfiguration</node>
+            <node x="2144.0" y="2360.0">module=springboot-dubbo-client;bean_class=com.fasterxml.jackson.databind.ObjectMapper;bean_name=jacksonObjectMapper</node>
+            <node x="0.0" y="2147.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration;bean_name=embeddedServletContainerAutoConfiguration</node>
+            <node x="424.0" y="2147.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration.BeanPostProcessorsRegistrar;bean_name=beanPostProcessorsRegistrar</node>
+            <node x="605.0" y="2360.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration.EmbeddedTomcat;bean_name=embeddedTomcat</node>
+            <node x="841.0" y="2360.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;bean_name=tomcatEmbeddedServletContainerFactory</node>
+            <node x="0.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration;bean_name=dispatcherServletAutoConfiguration</node>
+            <node x="493.0" y="1594.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration</node>
+            <node x="896.0" y="1561.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration</node>
+            <node x="1219.5" y="1528.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.DispatcherServlet;bean_name=dispatcherServlet</node>
+            <node x="1218.0" y="1594.0">module=springboot-dubbo-client;bean_class=org.springframework.web.multipart.MultipartResolver;bean_name=multipartResolver</node>
+            <node x="902.5" y="1627.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.web.servlet.ServletRegistrationBean;bean_name=dispatcherServletRegistration</node>
+            <node x="1198.0" y="2360.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcProperties;bean_name=spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties</node>
+            <node x="1824.0" y="1764.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration</node>
+            <node x="2123.5" y="1731.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.web.filter.OrderedHiddenHttpMethodFilter;bean_name=hiddenHttpMethodFilter</node>
+            <node x="2120.0" y="1797.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.web.filter.OrderedHttpPutFormContentFilter;bean_name=httpPutFormContentFilter</node>
+            <node x="0.0" y="2005.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration;bean_name=resourceChainCustomizerConfiguration</node>
+            <node x="378.0" y="2005.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.ResourceChainResourceHandlerRegistrationCustomizer;bean_name=resourceHandlerRegistrationCustomizer</node>
+            <node x="758.0" y="2005.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ResourceProperties;bean_name=spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties</node>
+            <node x="355.5" y="594.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration</node>
+            <node x="677.0" y="726.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;bean_name=requestMappingHandlerAdapter</node>
+            <node x="673.0" y="132.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;bean_name=requestMappingHandlerMapping</node>
+            <node x="730.0" y="198.0">module=springboot-dubbo-client;bean_class=org.springframework.util.PathMatcher;bean_name=mvcPathMatcher</node>
+            <node x="726.0" y="264.0">module=springboot-dubbo-client;bean_class=org.springframework.web.util.UrlPathHelper;bean_name=mvcUrlPathHelper</node>
+            <node x="675.5" y="330.0">module=springboot-dubbo-client;bean_class=org.springframework.web.accept.ContentNegotiationManager;bean_name=mvcContentNegotiationManager</node>
+            <node x="680.5" y="396.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=viewControllerHandlerMapping</node>
+            <node x="692.0" y="462.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;bean_name=beanNameHandlerMapping</node>
+            <node x="700.5" y="528.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=resourceHandlerMapping</node>
+            <node x="705.5" y="594.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.resource.ResourceUrlProvider;bean_name=mvcResourceUrlProvider</node>
+            <node x="682.5" y="660.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=defaultServletHandlerMapping</node>
+            <node x="712.5" y="792.0">module=springboot-dubbo-client;bean_class=org.springframework.format.support.FormattingConversionService;bean_name=mvcConversionService</node>
+            <node x="743.0" y="858.0">module=springboot-dubbo-client;bean_class=org.springframework.validation.Validator;bean_name=mvcValidator</node>
+            <node x="682.0" y="924.0">module=springboot-dubbo-client;bean_class=org.springframework.web.method.support.CompositeUriComponentsContributor;bean_name=mvcUriComponentsContributor</node>
+            <node x="692.0" y="990.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter;bean_name=httpRequestHandlerAdapter</node>
+            <node x="677.5" y="1056.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;bean_name=simpleControllerHandlerAdapter</node>
+            <node x="700.0" y="1122.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerExceptionResolver;bean_name=handlerExceptionResolver</node>
+            <node x="729.5" y="1188.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.ViewResolver;bean_name=mvcViewResolver</node>
+            <node x="0.0" y="825.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter</node>
+            <node x="387.0" y="660.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=defaultViewResolver</node>
+            <node x="1584.0" y="1797.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver</node>
+            <node x="412.0" y="792.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.ContentNegotiatingViewResolver;bean_name=viewResolver</node>
+            <node x="407.0" y="858.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.LocaleResolver;bean_name=localeResolver</node>
+            <node x="407.5" y="924.0">module=springboot-dubbo-client;bean_class=org.springframework.format.Formatter;bean_name=dateFormatter</node>
+            <node x="350.0" y="990.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WelcomePageHandlerMapping;bean_name=welcomePageHandlerMapping</node>
+            <node x="387.5" y="1056.0">module=springboot-dubbo-client;bean_class=org.springframework.web.filter.RequestContextFilter;bean_name=requestContextFilter</node>
+            <node x="1053.0" y="1901.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration</node>
+            <node x="1309.0" y="1868.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;bean_name=faviconHandlerMapping</node>
+            <node x="1313.0" y="1934.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;bean_name=faviconRequestHandler</node>
+            <node x="0.0" y="1358.0">module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration</node>
+            <node x="374.5" y="1259.0">module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.ApplicationConfig;bean_name=requestApplicationConfig</node>
+            <node x="387.0" y="1325.0">module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.RegistryConfig;bean_name=requestRegistryConfig</node>
+            <node x="385.0" y="1391.0">module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.ProtocolConfig;bean_name=requestProtocolConfig</node>
+            <node x="285.0" y="1457.0">module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboProperties;bean_name=spring.dubbo-io.dubbo.springboot.DubboProperties</node>
+            <node x="0.0" y="1594.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration</node>
+            <node x="288.0" y="1528.0">module=springboot-dubbo-client;bean_class=org.springframework.jmx.export.annotation.AnnotationMBeanExporter;bean_name=mbeanExporter</node>
+            <node x="264.0" y="1594.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy;bean_name=objectNamingStrategy</node>
+            <node x="295.5" y="1660.0">module=springboot-dubbo-client;bean_class=javax.management.MBeanServer;bean_name=mbeanServer</node>
+            <node x="979.0" y="99.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration</node>
+            <node x="1302.0" y="0.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector;bean_name=cacheConfigurationImportSelector</node>
+            <node x="1327.5" y="66.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers;bean_name=cacheManagerCustomizers</node>
+            <node x="1258.0" y="132.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidatorPostProcessor;bean_name=cacheAutoConfigurationValidatorPostProcessor</node>
+            <node x="1304.5" y="198.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator</node>
+            <node x="1691.0" y="198.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheProperties;bean_name=spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties</node>
+            <node x="1948.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration;bean_name=configurationPropertiesAutoConfiguration</node>
+            <node x="643.0" y="1764.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration</node>
+            <node x="1028.0" y="1731.0">module=springboot-dubbo-client;bean_class=javax.validation.Validator;bean_name=validator</node>
+            <node x="950.0" y="1797.0">module=springboot-dubbo-client;bean_class=org.springframework.validation.beanvalidation.MethodValidationPostProcessor;bean_name=methodValidationPostProcessor</node>
+            <node x="1417.0" y="1325.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration</node>
+            <node x="1815.0" y="1259.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration;bean_name=jacksonHttpMessageConvertersConfiguration</node>
+            <node x="1824.0" y="1325.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.GsonHttpMessageConvertersConfiguration;bean_name=gsonHttpMessageConvertersConfiguration</node>
+            <node x="1903.0" y="1391.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConverters;bean_name=messageConverters</node>
+            <node x="889.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration;bean_name=mappingJackson2HttpMessageConverterConfiguration</node>
+            <node x="1372.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJackson2HttpMessageConverter</node>
+            <node x="0.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration;bean_name=mappingJackson2XmlHttpMessageConverterConfiguration</node>
+            <node x="509.0" y="2076.0">module=springboot-dubbo-client;bean_class=org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter;bean_name=mappingJackson2XmlHttpMessageConverter</node>
+            <node x="1330.0" y="2218.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.GsonHttpMessageConvertersConfiguration.GsonHttpMessageConverterConfiguration;bean_name=gsonHttpMessageConverterConfiguration</node>
+            <node x="1724.0" y="2218.0">module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.GsonHttpMessageConverter;bean_name=gsonHttpMessageConverter</node>
+            <node x="0.0" y="2218.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration;bean_name=stringHttpMessageConverterConfiguration</node>
+            <node x="399.0" y="2218.0">module=springboot-dubbo-client;bean_class=org.springframework.http.converter.StringHttpMessageConverter;bean_name=stringHttpMessageConverter</node>
+            <node x="694.0" y="2147.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingProperties;bean_name=spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties</node>
+            <node x="1552.0" y="1901.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration</node>
+            <node x="1874.5" y="1868.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.info.GitProperties;bean_name=gitProperties</node>
+            <node x="1866.0" y="1934.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.info.BuildProperties;bean_name=buildProperties</node>
+            <node x="0.0" y="2360.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoProperties;bean_name=spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties</node>
+            <node x="715.0" y="1358.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration</node>
+            <node x="1128.0" y="1259.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DefaultErrorAttributes;bean_name=errorAttributes</node>
+            <node x="1110.5" y="1325.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.BasicErrorController;bean_name=basicErrorController</node>
+            <node x="1106.5" y="1391.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.ErrorPageCustomizer;bean_name=errorPageCustomizer</node>
+            <node x="1015.0" y="1457.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.PreserveErrorControllerTargetClassPostProcessor;bean_name=preserveErrorControllerTargetClassPostProcessor</node>
+            <node x="1243.0" y="1764.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration</node>
+            <node x="1649.0" y="1731.0">module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.View;bean_name=error</node>
+            <node x="0.0" y="2289.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration;bean_name=defaultErrorViewResolverConfiguration</node>
+            <node x="375.0" y="2289.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DefaultErrorViewResolver;bean_name=conventionErrorViewResolver</node>
+            <node x="0.0" y="1764.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration</node>
+            <node x="369.0" y="1731.0">module=springboot-dubbo-client;bean_class=org.springframework.web.filter.CharacterEncodingFilter;bean_name=characterEncodingFilter</node>
+            <node x="332.0" y="1797.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration.LocaleCharsetMappingsCustomizer;bean_name=localeCharsetMappingsCustomizer</node>
+            <node x="0.0" y="1901.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration</node>
+            <node x="302.0" y="1868.0">module=springboot-dubbo-client;bean_class=javax.servlet.MultipartConfigElement;bean_name=multipartConfigElement</node>
+            <node x="324.0" y="1934.0">module=springboot-dubbo-client;bean_class=org.springframework.web.multipart.support.StandardServletMultipartResolver;bean_name=multipartResolver</node>
+            <node x="669.0" y="2218.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.MultipartProperties;bean_name=spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties</node>
+            <node x="1414.0" y="1561.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;bean_name=serverPropertiesAutoConfiguration</node>
+            <node x="1822.5" y="1528.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerProperties;bean_name=serverProperties</node>
+            <node x="1761.0" y="1594.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration.DuplicateServerPropertiesDetector;bean_name=duplicateServerPropertiesDetector</node>
+            <node x="598.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration;bean_name=webClientAutoConfiguration</node>
+            <node x="1056.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration.RestTemplateConfiguration;bean_name=restTemplateConfiguration</node>
+            <node x="1350.0" y="2431.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.web.client.RestTemplateBuilder;bean_name=restTemplateBuilder</node>
+            <node x="320.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration;bean_name=webSocketAutoConfiguration</node>
+            <node x="1281.0" y="2289.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration.TomcatWebSocketConfiguration;bean_name=tomcatWebSocketConfiguration</node>
+            <node x="1611.0" y="2289.0">module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.websocket.TomcatWebSocketContainerCustomizer;bean_name=websocketContainerCustomizer</node>
+            <node x="2039.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+            <node x="1509.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+            <node x="1311.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+            <node x="1700.0" y="2502.0">module=springboot-dubbo-client;bean_class=javax.servlet.ServletContext;bean_name=servletContext</node>
+            <node x="1106.0" y="2502.0">module=springboot-dubbo-client;bean_class=javax.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+            <node x="2203.0" y="2502.0">module=springboot-dubbo-client;bean_class=javax.servlet.http.HttpSession;bean_name=httpSession</node>
+            <node x="1873.0" y="2502.0">module=springboot-dubbo-client;bean_class=javax.servlet.ServletConfig;bean_name=servletConfig</node>
+            <node x="870.0" y="2502.0">module=springboot-dubbo-client;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;bean_name=serverPropertiesAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration.DuplicateServerPropertiesDetector;bean_name=duplicateServerPropertiesDetector">
+              <point x="133.5" y="6.5" />
+              <point x="-131.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=resourceHandlerMapping">
+              <point x="116.0" y="-1.368421052631561" />
+              <point x="673.0" y="541.0" />
+              <point x="-103.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.web.filter.RequestContextFilter;bean_name=requestContextFilter">
+              <point x="135.0" y="11.375" />
+              <point x="350.0" y="1069.0" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.util.UrlPathHelper;bean_name=mvcUrlPathHelper">
+              <point x="116.0" y="-6.842105263157919" />
+              <point x="673.0" y="277.0" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.spring.springboot.ClientApplication;bean_name=clientApplication" target="module=springboot-dubbo-client;bean_class=org.spring.springboot.ClientApplication;bean_name=clientApplication">
+              <point x="-74.0" y="-0.0" />
+              <point x="542.0" y="1914.0" />
+              <point x="542.0" y="1947.0" />
+              <point x="636.0" y="1947.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.multipart.MultipartResolver;bean_name=multipartResolver">
+              <point x="121.0" y="6.5" />
+              <point x="-75.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.info.BuildProperties;bean_name=buildProperties">
+              <point x="117.0" y="6.5" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.validation.beanvalidation.MethodValidationPostProcessor;bean_name=methodValidationPostProcessor">
+              <point x="113.5" y="6.5" />
+              <point x="-124.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator">
+              <point x="99.5" y="9.75" />
+              <point x="1258.0" y="211.0" />
+              <point x="-130.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration;bean_name=jackson2ObjectMapperBuilderCustomizerConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration.StandardJackson2ObjectMapperBuilderCustomizer;bean_name=standardJacksonObjectMapperBuilderCustomizer">
+              <point x="203.0" y="-0.0" />
+              <point x="-182.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;bean_name=requestMappingHandlerMapping">
+              <point x="116.0" y="-9.57894736842104" />
+              <point x="-130.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.web.servlet.ServletRegistrationBean;bean_name=dispatcherServletRegistration">
+              <point x="161.5" y="6.5" />
+              <point x="-114.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration;bean_name=serverPropertiesAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ServerProperties;bean_name=serverProperties">
+              <point x="133.5" y="-6.5" />
+              <point x="1761.0" y="1541.0" />
+              <point x="-70.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.GsonHttpMessageConvertersConfiguration;bean_name=gsonHttpMessageConvertersConfiguration">
+              <point x="159.0" y="-0.0" />
+              <point x="-160.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;bean_name=beanNameHandlerMapping">
+              <point x="116.0" y="-2.736842105263122" />
+              <point x="673.0" y="475.0" />
+              <point x="-111.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration;bean_name=jacksonHttpMessageConvertersConfiguration">
+              <point x="159.0" y="-8.666666666666742" />
+              <point x="-169.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration;bean_name=defaultErrorViewResolverConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DefaultErrorViewResolver;bean_name=conventionErrorViewResolver">
+              <point x="147.5" y="-0.0" />
+              <point x="-114.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration" target="module=springboot-dubbo-client;bean_class=javax.servlet.MultipartConfigElement;bean_name=multipartConfigElement">
+              <point x="111.0" y="-6.5" />
+              <point x="-97.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.format.support.FormattingConversionService;bean_name=mvcConversionService">
+              <point x="116.0" y="4.105263157894683" />
+              <point x="673.0" y="805.0" />
+              <point x="-91.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration;bean_name=embeddedServletContainerAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration.BeanPostProcessorsRegistrar;bean_name=beanPostProcessorsRegistrar">
+              <point x="172.0" y="-0.0" />
+              <point x="-112.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver">
+              <point x="130.5" y="6.5" />
+              <point x="-97.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration;bean_name=mappingJackson2HttpMessageConverterConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJackson2HttpMessageConverter">
+              <point x="201.5" y="-0.0" />
+              <point x="-154.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter;bean_name=httpRequestHandlerAdapter">
+              <point x="116.0" y="8.21052631578948" />
+              <point x="673.0" y="1003.0" />
+              <point x="-111.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DefaultErrorAttributes;bean_name=errorAttributes">
+              <point x="110.0" y="-9.75" />
+              <point x="1015.0" y="1272.0" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;bean_name=requestMappingHandlerAdapter">
+              <point x="116.0" y="2.736842105263122" />
+              <point x="-126.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=viewControllerHandlerMapping">
+              <point x="116.0" y="-4.105263157894683" />
+              <point x="-123.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration">
+              <point x="135.0" y="-11.375" />
+              <point x="-116.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.spring.springboot.ClientApplication;bean_name=clientApplication" target="module=springboot-dubbo-client;bean_class=org.spring.springboot.dubbo.CityDubboConsumerService;bean_name=cityDubboConsumerService">
+              <point x="74.0" y="-6.5" />
+              <point x="-109.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.filter.CharacterEncodingFilter;bean_name=characterEncodingFilter">
+              <point x="126.0" y="-6.5" />
+              <point x="332.0" y="1744.0" />
+              <point x="-96.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.ResourceChainResourceHandlerRegistrationCustomizer;bean_name=resourceHandlerRegistrationCustomizer" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ResourceProperties;bean_name=spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties">
+              <point x="150.0" y="-0.0" />
+              <point x="-292.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver">
+              <point x="135.0" y="-4.875" />
+              <point x="350.0" y="739.0" />
+              <point x="-97.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerExceptionResolver;bean_name=handlerExceptionResolver">
+              <point x="116.0" y="10.947368421052602" />
+              <point x="673.0" y="1135.0" />
+              <point x="-103.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.ContentNegotiatingViewResolver;bean_name=viewResolver">
+              <point x="135.0" y="-1.625" />
+              <point x="350.0" y="805.0" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.DispatcherServlet;bean_name=dispatcherServlet">
+              <point x="121.0" y="-6.5" />
+              <point x="-74.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;bean_name=simpleControllerHandlerAdapter">
+              <point x="116.0" y="9.57894736842104" />
+              <point x="-126.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.View;bean_name=error">
+              <point x="130.5" y="-6.5" />
+              <point x="1584.0" y="1744.0" />
+              <point x="-32.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.LocaleResolver;bean_name=localeResolver">
+              <point x="135.0" y="1.625" />
+              <point x="350.0" y="871.0" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.ErrorPageCustomizer;bean_name=errorPageCustomizer">
+              <point x="110.0" y="3.25" />
+              <point x="1015.0" y="1404.0" />
+              <point x="-87.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration;bean_name=mappingJackson2XmlHttpMessageConverterConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter;bean_name=mappingJackson2XmlHttpMessageConverter">
+              <point x="214.5" y="-0.0" />
+              <point x="-167.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;bean_name=messageSourceAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.context.MessageSource;bean_name=messageSource">
+              <point x="132.0" y="-0.0" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration.PreserveErrorControllerTargetClassPostProcessor;bean_name=preserveErrorControllerTargetClassPostProcessor">
+              <point x="110.0" y="9.75" />
+              <point x="-178.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration.EmbeddedTomcat;bean_name=embeddedTomcat" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;bean_name=tomcatEmbeddedServletContainerFactory">
+              <point x="78.0" y="-0.0" />
+              <point x="-156.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.info.GitProperties;bean_name=gitProperties">
+              <point x="117.0" y="-6.5" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConverters;bean_name=messageConverters">
+              <point x="159.0" y="8.666666666666742" />
+              <point x="1815.0" y="1404.0" />
+              <point x="-81.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers;bean_name=cacheManagerCustomizers">
+              <point x="99.5" y="-3.25" />
+              <point x="1258.0" y="79.0" />
+              <point x="-107.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.method.support.CompositeUriComponentsContributor;bean_name=mvcUriComponentsContributor">
+              <point x="116.0" y="6.842105263157919" />
+              <point x="-121.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration" target="module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.ProtocolConfig;bean_name=requestProtocolConfig">
+              <point x="102.5" y="3.25" />
+              <point x="285.0" y="1404.0" />
+              <point x="-92.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheProperties;bean_name=spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties">
+              <point x="130.0" y="-0.0" />
+              <point x="-275.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration.RestTemplateConfiguration;bean_name=restTemplateConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.web.client.RestTemplateBuilder;bean_name=restTemplateBuilder">
+              <point x="107.0" y="-0.0" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.GsonHttpMessageConvertersConfiguration.GsonHttpMessageConverterConfiguration;bean_name=gsonHttpMessageConverterConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.GsonHttpMessageConverter;bean_name=gsonHttpMessageConverter">
+              <point x="157.0" y="-0.0" />
+              <point x="-110.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector;bean_name=cacheConfigurationImportSelector">
+              <point x="99.5" y="-9.75" />
+              <point x="1258.0" y="13.0" />
+              <point x="-132.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;bean_name=faviconHandlerMapping">
+              <point x="88.0" y="-6.5" />
+              <point x="-99.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.util.PathMatcher;bean_name=mvcPathMatcher">
+              <point x="116.0" y="-8.21052631578948" />
+              <point x="673.0" y="211.0" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;bean_name=faviconRequestHandler">
+              <point x="88.0" y="6.5" />
+              <point x="-95.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration" target="module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboProperties;bean_name=spring.dubbo-io.dubbo.springboot.DubboProperties">
+              <point x="102.5" y="9.75" />
+              <point x="-192.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.format.Formatter;bean_name=dateFormatter">
+              <point x="135.0" y="4.875" />
+              <point x="350.0" y="937.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WelcomePageHandlerMapping;bean_name=welcomePageHandlerMapping">
+              <point x="135.0" y="8.125" />
+              <point x="-121.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration" target="module=springboot-dubbo-client;bean_class=javax.validation.Validator;bean_name=validator">
+              <point x="113.5" y="-6.5" />
+              <point x="950.0" y="1744.0" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.web.filter.OrderedHttpPutFormContentFilter;bean_name=httpPutFormContentFilter">
+              <point x="108.0" y="6.5" />
+              <point x="-102.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;bean_name=jacksonAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.jackson.JsonComponentModule;bean_name=jsonComponentModule">
+              <point x="105.5" y="-0.0" />
+              <point x="-97.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;bean_name=propertyPlaceholderAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.context.support.PropertySourcesPlaceholderConfigurer;bean_name=propertySourcesPlaceholderConfigurer">
+              <point x="148.5" y="-0.0" />
+              <point x="-147.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=defaultServletHandlerMapping">
+              <point x="116.0" y="1.368421052631561" />
+              <point x="-121.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration" target="module=springboot-dubbo-client;bean_class=javax.management.MBeanServer;bean_name=mbeanServer">
+              <point x="92.0" y="8.666666666666742" />
+              <point x="264.0" y="1673.0" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=defaultViewResolver">
+              <point x="135.0" y="-8.125" />
+              <point x="350.0" y="673.0" />
+              <point x="-84.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.spring.springboot.ClientApplication;bean_name=clientApplication" target="module=springboot-dubbo-client;bean_class=org.spring.springboot.web.CityController;bean_name=cityController">
+              <point x="74.0" y="6.5" />
+              <point x="790.0" y="1947.0" />
+              <point x="-61.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration;bean_name=jacksonObjectMapperConfiguration" target="module=springboot-dubbo-client;bean_class=com.fasterxml.jackson.databind.ObjectMapper;bean_name=jacksonObjectMapper">
+              <point x="137.5" y="-0.0" />
+              <point x="-90.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.jmx.export.annotation.AnnotationMBeanExporter;bean_name=mbeanExporter">
+              <point x="92.0" y="-8.666666666666742" />
+              <point x="264.0" y="1541.0" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration;bean_name=jacksonObjectMapperBuilderConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;bean_name=jacksonObjectMapperBuilder">
+              <point x="161.5" y="-0.0" />
+              <point x="-114.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.ViewResolver;bean_name=mvcViewResolver">
+              <point x="116.0" y="12.315789473684163" />
+              <point x="673.0" y="1201.0" />
+              <point x="-74.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration;bean_name=stringHttpMessageConverterConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.http.converter.StringHttpMessageConverter;bean_name=stringHttpMessageConverter">
+              <point x="159.5" y="-0.0" />
+              <point x="-112.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.BasicErrorController;bean_name=basicErrorController">
+              <point x="110.0" y="-3.25" />
+              <point x="1015.0" y="1338.0" />
+              <point x="-83.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.web.filter.OrderedHiddenHttpMethodFilter;bean_name=hiddenHttpMethodFilter">
+              <point x="108.0" y="-6.5" />
+              <point x="-99.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.servlet.resource.ResourceUrlProvider;bean_name=mvcResourceUrlProvider">
+              <point x="116.0" y="-0.0" />
+              <point x="-98.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.validation.Validator;bean_name=mvcValidator">
+              <point x="116.0" y="5.473684210526358" />
+              <point x="673.0" y="871.0" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration" target="module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.ApplicationConfig;bean_name=requestApplicationConfig">
+              <point x="102.5" y="-9.75" />
+              <point x="285.0" y="1272.0" />
+              <point x="-103.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy;bean_name=objectNamingStrategy">
+              <point x="92.0" y="-0.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration;bean_name=resourceChainCustomizerConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.ResourceChainResourceHandlerRegistrationCustomizer;bean_name=resourceHandlerRegistrationCustomizer">
+              <point x="149.0" y="-0.0" />
+              <point x="-150.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration.TomcatWebSocketConfiguration;bean_name=tomcatWebSocketConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.websocket.TomcatWebSocketContainerCustomizer;bean_name=websocketContainerCustomizer">
+              <point x="125.0" y="-0.0" />
+              <point x="-122.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidatorPostProcessor;bean_name=cacheAutoConfigurationValidatorPostProcessor">
+              <point x="99.5" y="3.25" />
+              <point x="-176.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration.LocaleCharsetMappingsCustomizer;bean_name=localeCharsetMappingsCustomizer">
+              <point x="126.0" y="6.5" />
+              <point x="-133.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=io.dubbo.springboot.DubboAutoConfiguration;bean_name=dubboAutoConfiguration" target="module=springboot-dubbo-client;bean_class=com.alibaba.dubbo.config.RegistryConfig;bean_name=requestRegistryConfig">
+              <point x="102.5" y="-3.25" />
+              <point x="285.0" y="1338.0" />
+              <point x="-90.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration">
+              <point x="161.5" y="-6.5" />
+              <point x="-121.0" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.multipart.support.StandardServletMultipartResolver;bean_name=multipartResolver">
+              <point x="111.0" y="6.5" />
+              <point x="302.0" y="1947.0" />
+              <point x="-75.5" y="-0.0" />
+            </edge>
+            <edge source="module=springboot-dubbo-client;bean_class=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration" target="module=springboot-dubbo-client;bean_class=org.springframework.web.accept.ContentNegotiationManager;bean_name=mvcContentNegotiationManager">
+              <point x="116.0" y="-5.473684210526358" />
+              <point x="-128.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.17032967032967034" x="1198.5" y="1264.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/dubbo/CityDubboConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Others Demo/dubbox-master/dubbo-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/web/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
