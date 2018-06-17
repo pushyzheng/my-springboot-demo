@@ -111,7 +111,7 @@ spring.dubbo.scan=org.spring.springboot.dubbo
 
 同样我们先创建简单的一个`interface`：
 
-```
+```java
 public interface CityDubboService {
 
     City findCityByName(String cityName);
@@ -120,7 +120,7 @@ public interface CityDubboService {
 
 并有实现该接口的实现类，这里唯一需要注意的是，`@service`注解是来自`com.alibaba.dubbo.config.annotation`的，并不是之前的`org.springframework.stereotype`的`@Service`注解：
 
-```
+```java
 import com.alibaba.dubbo.config.annotation.Service;
 
 @Service(version = "1.0.0")
@@ -155,7 +155,7 @@ server.port=8081
 
 创建一个`CityController`，使用`@Reference`注解进行自动转配`cityDubboService`接口，这样就可以调用服务提供者提供的`cityDubboService`接口的服务了：
 
-```
+```java
 @RestController
 public class CityController {
 
