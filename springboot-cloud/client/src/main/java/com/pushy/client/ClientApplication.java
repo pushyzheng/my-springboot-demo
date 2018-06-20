@@ -15,6 +15,11 @@ public class ClientApplication {
 		SpringApplication.run(ClientApplication.class, args);
 	}
 
+	/**
+	 * 注册一个服务接口
+	 * @param name 接口传入的参数
+	 * @return
+	 */
 	@RequestMapping("hi")
 	public String home(String name) {
 		return "Hello" + name;
