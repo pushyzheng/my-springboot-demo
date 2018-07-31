@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
 <body>
-
-    <div class="mdui-textfield">
-        <input class="mdui-textfield-input" type="text" placeholder="User Name"/>
+    <div>
+        <form action="/login" method="post">
+            <input type="text" placeholder="用户名" name="username" id="username" /> <br>
+            <input type="password" placeholder="密码" name="password" id="password "/> <br>
+            <button type="submit">登录</button>
+        </form>
     </div>
-
 </body>
 </html>

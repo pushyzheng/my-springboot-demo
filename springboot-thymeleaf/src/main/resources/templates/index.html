@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:if="${session.currentUser != null}">
+        Hello <span th:text="${session.currentUser.username}"></span> !
+        Welcome to Pushy.site
+    </h1>
+    <h2>你的角色是
+        <div th:if="${session.currentUser != null}">
+            <span th:switch="${session.role}">
+                <p th:case="'admin'">管理员</p>
+                <p th:case="'user'">普通用户</p>
+            </span>
+        </div>
+        <div th:if="${session.currentUser  == null }">
+            游客
+        </div>
+    </h2>
+    <a th:href="@{/login}" th:if="${session.currentUser  == null }">
+        登录
+    </a>
+</body>
+</html>

@@ -6,9 +6,26 @@
 </head>
 <body>
 
+    <!--字符串拼接-->
     <p th:text="'Hello, ' + ${name} + '!'" ></p>
+    <p th:text="|Hello ${name} |"></p>
 
+    <!--变量表达式-->
+    <p>Username: <span th:text="${user.username}"></span></p>
+    循环List
+    <li th:each="user : ${userList}">
+        <span th:text="${user.username}"></span>
+    </li>
+
+    <!--链接，跳转到指定的路由-->
     <a th:href="@{/login}">登录</a>
+
+    <!--内嵌变量，可以通过#直接访问 -->
+    <div th:unless="${#lists.isEmpty(userList)}">
+        userList不为空
+    </div>
+
+    <p>当前URL：<span th:text="${#httpServletRequest.getRequestURL()}"></span></p>
 
 </body>
 </html>
