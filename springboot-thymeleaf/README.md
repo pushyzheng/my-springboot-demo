@@ -176,6 +176,29 @@ maps
 <span th:text="${#httpServletRequest.getRequestURL()}"></span>
 ```
 
+## 表单提交
+
+前端
+
+```
+<form action="/login" method="post">
+    <input type="text" placeholder="用户名" name="username" id="username" /> <br>
+    <input type="password" placeholder="密码" name="password" id="password "/> <br>
+    <button type="submit">登录</button>
+</form>
+```
+
+后端controller中通过注入User对象，Spring将会自动将前端的值转换成User对象的：
+
+```java
+@PostMapping("/login")
+public String login(User user) {
+    request.getSession().setAttribute("currentUser", user);
+    request.getSession().setAttribute("role", "admin");
+    return "index";
+}
+```
+
 参考资料：
 
 [spring boot(四)：thymeleaf使用详解 - 纯洁的微笑 - 博客园](https://www.cnblogs.com/ityouknow/p/5833560.html)

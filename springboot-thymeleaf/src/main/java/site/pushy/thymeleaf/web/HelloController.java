@@ -34,10 +34,7 @@ public class HelloController {
     }
 
     @PostMapping("/login")
-    public String login(HttpServletRequest request) {
-        User user = new User();
-        user.setPassword("123");
-        user.setUsername("Pushy");
+    public String login(HttpServletRequest request, User user) {
         request.getSession().setAttribute("currentUser", user);
         request.getSession().setAttribute("role", "admin");
         return "index";
