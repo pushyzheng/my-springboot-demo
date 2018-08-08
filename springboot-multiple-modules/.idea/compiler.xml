@@ -11,7 +11,6 @@
         <module name="dao" />
         <module name="service" />
         <module name="service-impl" />
-        <module name="springboot-multiple-modules" />
         <module name="web" />
       </profile>
     </annotationProcessing>

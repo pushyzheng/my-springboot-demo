@@ -10,6 +10,6 @@ spring:
       name: pcomy-dao
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: site.pushy.pojo
+  type-aliases-package: site.pushy.bean
 server:
   port: 8081
