@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "site.pushy.springboot.ExampleServiceProperties",
+      "name": "example.service",
+      "type": "site.pushy.springboot.ExampleServiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "site.pushy.springboot.ExampleServiceProperties",
+      "name": "example.service.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "site.pushy.springboot.ExampleServiceProperties",
+      "name": "example.service.suffix",
+      "type": "java.lang.String"
+    }
+  ]
+}
