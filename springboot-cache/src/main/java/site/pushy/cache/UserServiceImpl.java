@@ -11,7 +11,6 @@ public class UserServiceImpl implements UserService {
     @Cacheable(value = "poemInfo")
     public TbUser getUserById(String id) {
         System.out.println("进入实现类获取数据 ...");
-
         return new TbUser("Pushy");
     }
 }

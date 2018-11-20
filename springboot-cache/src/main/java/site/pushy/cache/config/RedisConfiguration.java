@@ -5,15 +5,12 @@ import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.cache.RedisCacheConfiguration;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
-import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
-import site.pushy.cache.TbUser;
+import org.springframework.data.redis.serializer.*;
 
 import java.lang.reflect.Method;
 
@@ -43,22 +40,21 @@ public class RedisConfiguration extends CachingConfigurerSupport {
 
     /**
      * 采用RedisCacheManager作为缓存管理器
-     * @param connectionFactory
-     * @return
      */
     @Bean
-    public CacheManager cacheManager(RedisConnectionFactory connectionFactory) {
-        return RedisCacheManager.create(connectionFactory);
+    public CacheManager cacheManager(RedisConnectionFactory factory) {
+        return RedisCacheManager.create(factory);
     }
 
     @Bean
-    public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisTemplate<Object, Object> redisTemplate =
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+        RedisTemplate<String, Object> redisTemplate =
                 new RedisTemplate<>();
-        redisTemplate.setKeySerializer(new StringRedisSerializer());
-        redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
-
         redisTemplate.setConnectionFactory(redisConnectionFactory);
+        // 配置键序列化器，序列化String类型的数据
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        // 配置值序列化器，使用Spring转换服务进行序列化
+        redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
         return redisTemplate;
     }
 
@@ -66,6 +62,4 @@ public class RedisConfiguration extends CachingConfigurerSupport {
     public StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory) {
         return new StringRedisTemplate(redisConnectionFactory);
     }
-
-
 }
