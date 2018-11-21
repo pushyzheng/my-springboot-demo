@@ -1,4 +1,4 @@
-package site.pushy.shirodemo;
+package site.pushy.shirodemo.shiro;
 
 import org.apache.shiro.authc.AuthenticationToken;
 

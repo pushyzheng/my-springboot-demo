@@ -1,7 +1,7 @@
 package site.pushy.shirodemo.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * @author Pushy
@@ -13,11 +13,14 @@ public class User {
     @Id
     private String id;
 
+    @Column(nullable = false, unique = true)
     private String name;
 
+    @Column(nullable = false)
     private String password;
 
-    private String roles;
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = {CascadeType.ALL})
+    private List<Role> roles;
 
     public String getId() {
         return id;
@@ -43,11 +46,21 @@ public class User {
         this.password = password;
     }
 
-    public String getRoles() {
+    public List<Role> getRoles() {
         return roles;
     }
 
-    public void setRoles(String roles) {
+    public void setRoles(List<Role> roles) {
         this.roles = roles;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", roles='" + roles + '\'' +
+                '}';
     }
 }

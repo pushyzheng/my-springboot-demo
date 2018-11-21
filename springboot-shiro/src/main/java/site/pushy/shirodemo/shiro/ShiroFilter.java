@@ -1,5 +1,7 @@
-package site.pushy.shirodemo;
+package site.pushy.shirodemo.shiro;
 
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,28 +18,30 @@ import java.io.IOException;
  * @author Pushy
  * @since 2018/11/20 22:06
  */
-public class JWTFilter extends BasicHttpAuthenticationFilter {
+public class ShiroFilter extends BasicHttpAuthenticationFilter {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Override
     protected boolean isLoginAttempt(ServletRequest request, ServletResponse response) {
         HttpServletRequest req = (HttpServletRequest) request;
-
-        logger.info("JWTFilter::isLoginAttempt：" + req.getRequestURI());
-
         String token = req.getHeader("token");
         return token != null;
     }
 
     @Override
-    protected boolean executeLogin(ServletRequest request, ServletResponse response) throws Exception {
+    protected boolean executeLogin(ServletRequest request, ServletResponse response) throws AuthenticationException {
         HttpServletRequest req = (HttpServletRequest) request;
         String authorization = req.getHeader("token");
 
         JwtToken token = new JwtToken(authorization);
-        // 提交给realm进行登入，如果错误他会抛出异常并被捕获
-        getSubject(request, response).login(token);
+        // 提交给自定义realm进行登入，如果错误他会抛出异常并被捕获
+        try {
+            Subject subject = getSubject(request, response);
+            subject.login(token);
+        } catch (Exception e) {
+            return false;
+        }
 
         return true;
     }
@@ -46,12 +50,19 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         if (isLoginAttempt(request, response)) {
             try {
-                executeLogin(request, response);
+                boolean result = executeLogin(request, response);
+                if (!result) {
+                    logger.error("Login error.");
+                    return response401(request, response);
+                }
+                return true;
             } catch (Exception e) {
-                response401(request, response);
+                logger.error("Login error => " + e.getMessage());
+                return response401(request, response);
             }
         }
-        return true;
+        logger.error("Token is empty.");
+        return response401(request, response);
     }
 
     /**
@@ -72,13 +83,15 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
         return super.preHandle(request, response);
     }
 
-    private void response401(ServletRequest request, ServletResponse response) {
+    private boolean response401(ServletRequest request, ServletResponse response) {
         try {
             HttpServletResponse resp = (HttpServletResponse) response;
             resp.sendRedirect("/401");
+            resp.setStatus(HttpStatus.UNAUTHORIZED.value());
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
+        return false;
     }
 
 }

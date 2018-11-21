@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class JWTUtil {
 
-    private static final String SECRET_KEY = "JWT ";
+    private static final String SECRET_KEY = "f9251e38-7f92-469a-8c04-7c8d2f9a7edc";
 
     /**
      * 默认加密token
@@ -41,14 +41,18 @@ public class JWTUtil {
                 .addClaims(claims)
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(expirationMillis))
-                .signWith(SignatureAlgorithm.HS256,SECRET_KEY).compact();
+                .signWith(SignatureAlgorithm.HS256, SECRET_KEY).compact();
     }
 
-    public static String decode(String accessToken) throws JwtException{
-        Claims claims = Jwts.parser()
-                .setSigningKey(SECRET_KEY)
-                .parseClaimsJws(accessToken).getBody();
-        return (String) claims.get("userId");
+    public static String decode(String accessToken) {
+        try {
+            Claims claims = Jwts.parser()
+                    .setSigningKey(SECRET_KEY)
+                    .parseClaimsJws(accessToken).getBody();
+            return (String) claims.get("userId");
+        } catch (Exception e) {  // 解密失败，返回null
+            return null;
+        }
     }
 
 }

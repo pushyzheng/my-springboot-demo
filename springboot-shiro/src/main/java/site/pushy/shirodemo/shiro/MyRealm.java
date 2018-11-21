@@ -1,17 +1,21 @@
-package site.pushy.shirodemo;
+package site.pushy.shirodemo.shiro;
 
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+import site.pushy.shirodemo.bean.Role;
 import site.pushy.shirodemo.bean.User;
 import site.pushy.shirodemo.service.UserService;
+import site.pushy.shirodemo.service.UserServiceImpl;
 import site.pushy.shirodemo.util.JWTUtil;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author Pushy
@@ -20,7 +24,7 @@ import site.pushy.shirodemo.util.JWTUtil;
 @Component
 public class MyRealm extends AuthorizingRealm {
 
-    @Autowired
+    @Resource
     private UserService userService;
 
     @Override
@@ -41,9 +45,10 @@ public class MyRealm extends AuthorizingRealm {
         String token = (String) auth.getCredentials();
         String id = JWTUtil.decode(token);
         if (id == null) {
-            throw new AuthenticationException("Token无效");
+            throw new AuthenticationException("Invalid token.");
         }
-        return null;
+
+        return new SimpleAuthenticationInfo(token, token, "myRealm");
     }
 
     /**
@@ -54,9 +59,16 @@ public class MyRealm extends AuthorizingRealm {
         String id = JWTUtil.decode(principals.toString());
         User user = userService.getUserById(id);
 
-        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-        simpleAuthorizationInfo.addRole(user.getRoles());
+        if (user != null) {
+            SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
 
-        return simpleAuthorizationInfo;
+            List<Role> roles = userService.listRoleByUserId(user.getId());
+            for (Role role : roles) {
+                simpleAuthorizationInfo.addRole(role.getName());
+            }
+
+            return simpleAuthorizationInfo;
+        }
+        return null;
     }
 }
