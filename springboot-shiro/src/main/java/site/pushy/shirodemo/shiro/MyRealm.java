@@ -43,11 +43,12 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken auth) throws AuthenticationException {
         String token = (String) auth.getCredentials();
-        String id = JWTUtil.decode(token);
+        String id = JWTUtil.decode(token);  // 解密Token
         if (id == null) {
+            // 解密失败，抛出异常
             throw new AuthenticationException("Invalid token.");
         }
-
+        // 解密成功，返回SimpleAuthenticationInfo对象
         return new SimpleAuthenticationInfo(token, token, "myRealm");
     }
 
@@ -61,12 +62,12 @@ public class MyRealm extends AuthorizingRealm {
 
         if (user != null) {
             SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-
+            // 获取当前用户的所有角色，并且通过addRole添加到simpleAuthorizationInfo当中
+            // 这样当Shiro内部检查用户是否有某项权限时就会从SimpleAuthorizationInfo中拿取校验
             List<Role> roles = userService.listRoleByUserId(user.getId());
             for (Role role : roles) {
                 simpleAuthorizationInfo.addRole(role.getName());
             }
-
             return simpleAuthorizationInfo;
         }
         return null;

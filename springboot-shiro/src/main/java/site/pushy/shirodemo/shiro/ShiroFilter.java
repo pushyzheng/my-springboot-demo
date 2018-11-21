@@ -22,47 +22,51 @@ public class ShiroFilter extends BasicHttpAuthenticationFilter {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    /**
+     * 这里是在该方法内检查Token头是否为空
+     */
     @Override
     protected boolean isLoginAttempt(ServletRequest request, ServletResponse response) {
         HttpServletRequest req = (HttpServletRequest) request;
-        String token = req.getHeader("token");
-        return token != null;
+        return req.getHeader("token") != null;
     }
 
+    /**
+     * 调用Realm执行登录，并返回登录认证的结果
+     */
     @Override
     protected boolean executeLogin(ServletRequest request, ServletResponse response) throws AuthenticationException {
         HttpServletRequest req = (HttpServletRequest) request;
         String authorization = req.getHeader("token");
 
         JwtToken token = new JwtToken(authorization);
-        // 提交给自定义realm进行登入，如果错误他会抛出异常并被捕获
+        // 当调用Subject对象的login方法时，将会交给我们自己实现的MyRealm来处理登录的认证逻辑
+        // 如果错误他会抛出异常并被捕获
         try {
             Subject subject = getSubject(request, response);
             subject.login(token);
         } catch (Exception e) {
             return false;
         }
-
         return true;
     }
 
+    /**
+     * 首先调用的一个方法，在该方法内进行主要的认证逻辑处理，如判断Token头是否为空，解密Token等
+     */
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         if (isLoginAttempt(request, response)) {
-            try {
-                boolean result = executeLogin(request, response);
-                if (!result) {
-                    logger.error("Login error.");
-                    return response401(request, response);
-                }
-                return true;
-            } catch (Exception e) {
-                logger.error("Login error => " + e.getMessage());
-                return response401(request, response);
+            boolean result = executeLogin(request, response);  // 执行登录
+            if (!result) { // 登录失败，返回401错误
+                logger.error("Login error.");
+                return abort401(request, response);
             }
+            return true;
         }
         logger.error("Token is empty.");
-        return response401(request, response);
+        // Token为空
+        return abort401(request, response);
     }
 
     /**
@@ -83,7 +87,10 @@ public class ShiroFilter extends BasicHttpAuthenticationFilter {
         return super.preHandle(request, response);
     }
 
-    private boolean response401(ServletRequest request, ServletResponse response) {
+    /**
+     * 返回HTTP 401错误
+     */
+    private boolean abort401(ServletRequest request, ServletResponse response) {
         try {
             HttpServletResponse resp = (HttpServletResponse) response;
             resp.sendRedirect("/401");

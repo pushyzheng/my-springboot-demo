@@ -15,22 +15,11 @@ public class JWTUtil {
 
     private static final String SECRET_KEY = "f9251e38-7f92-469a-8c04-7c8d2f9a7edc";
 
-    /**
-     * 默认加密token
-     * @param userId
-     * @return
-     */
     public static String encode(String userId) {
         Integer ept = 10080;  // 一周
         return JWTUtil.encode(userId, ept);
     }
 
-    /**
-     * 加密token
-     * @param userId
-     * @param exceptionTime 过期时间，分钟级别
-     * @return
-     */
     public static String encode(String userId, Integer exceptionTime) {
         Map<String, Object> claims = new HashMap<>();
         long nowMillis = System.currentTimeMillis();
@@ -54,5 +43,4 @@ public class JWTUtil {
             return null;
         }
     }
-
 }

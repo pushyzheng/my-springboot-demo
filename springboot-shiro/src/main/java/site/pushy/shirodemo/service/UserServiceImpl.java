@@ -22,12 +22,18 @@ public class UserServiceImpl implements UserService {
     @Resource
     private RoleRepository roleRepository;
 
+    /**
+     * 通过userId查询出对应的用户对象
+     */
     @Override
     public User getUserById(String id) {
         return userRepository.findById(id)
                 .orElse(null);
     }
 
+    /**
+     * 通过userId查询出该用户对象的所有的角色列表
+     */
     @Override
     public List<Role> listRoleByUserId(String id) {
         return roleRepository.findByUserId(id);

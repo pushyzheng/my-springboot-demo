@@ -21,18 +21,22 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
 
+    /**
+     * 生成DefaultWebSecurityManager bean，并设置我们自定义的Realm
+     * @param myRealm Spring将会自动注入MyRealm类，因为我们给它加了@Component注解
+     */
     @Bean
     public DefaultWebSecurityManager securityManager(MyRealm myRealm) {
         DefaultWebSecurityManager manager = new DefaultWebSecurityManager();
-
         manager.setRealm(myRealm);
-
         return manager;
     }
 
+    /**
+     * 注入ShiroFilter，配置过滤的URL规则
+     */
     @Bean
     public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager securityManager) {
-        System.out.println("注入 shiroFilter...");
         ShiroFilterFactoryBean factoryBean = new ShiroFilterFactoryBean();
 
         // 添加自己的过滤器并且取名为jwt
@@ -47,6 +51,7 @@ public class ShiroConfig {
         // 所有请求通过我们自己的JWT Filter
         filterRuleMap.put("/**", "jwt");
         // 访问401和404页面不通过我们的Filter
+        filterRuleMap.put("/login", "anon");
         filterRuleMap.put("/401", "anon");
         factoryBean.setFilterChainDefinitionMap(filterRuleMap);
 
@@ -54,8 +59,7 @@ public class ShiroConfig {
     }
 
     /**
-     * 开启注解功能
-     * @return
+     * 以下的配置为开启注解功能
      */
     @Bean
     @DependsOn("lifecycleBeanPostProcessor")
