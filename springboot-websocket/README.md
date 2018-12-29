@@ -132,7 +132,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 在`WebSocketInterceptor`拦截器中实现了`HandshakeInterceptor`接口。拦截器的作用主要是用于获取用户标识的记录，例如这里通过查询字符串的方式得到客户端发送的`token`，通过`JWT`解密之后拿到用户的`userId`：
 
-```
+```java
 public class WebSocketInterceptor implements HandshakeInterceptor {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
